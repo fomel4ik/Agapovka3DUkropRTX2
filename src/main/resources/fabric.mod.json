@@ -5,11 +5,11 @@
 	"name": "Agapovka 3D: ukrop RTX 2",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
-		"Me!"
+		"0.5 Studios"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+		"sources": "https://github.com/fomel4ik/Agapovka3DUkropRTX2"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/agapovka-3d/icon.png",
