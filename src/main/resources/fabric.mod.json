@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "agapovka-3d",
+	"version": "${version}",
+	"name": "Agapovka 3D: ukrop RTX 2",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/agapovka-3d/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.agapovka.ukrop.Agapovka3DUkropRTX2"
+		],
+		"client": [
+			"com.agapovka.ukrop.client.Agapovka3DUkropRTX2Client"
+		],
+		"fabric-datagen": [
+			"com.agapovka.ukrop.client.Agapovka3DUkropRTX2DataGenerator"
+		]
+	},
+	"mixins": [
+		"agapovka-3d.mixins.json",
+		{
+			"config": "agapovka-3d.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.2",
+		"minecraft": "~26.1.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
