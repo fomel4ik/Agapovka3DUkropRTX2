@@ -14,7 +14,15 @@ import java.util.function.Function;
 public class ModItems {
 
     public static final Item ALPHA_WOODEN_AXE = registerItem("alpha_wooden_axe", properties ->
-            new Item(properties.axe(ToolMaterial.WOOD, 1.4f,18.0f)));
+            new Item(properties.axe(ToolMaterial.WOOD, 1.5f,18.0f)));
+    public static final Item ALPHA_WOODEN_PICKAXE = registerItem("alpha_wooden_pickaxe", properties ->
+            new Item(properties.pickaxe(ToolMaterial.WOOD, 1.0f,18.0f)));
+    public static final Item ALPHA_WOODEN_SWORD = registerItem("alpha_wooden_sword", properties ->
+            new Item(properties.sword(ToolMaterial.WOOD, 2f,18.0f)));
+    public static final Item ALPHA_WOODEN_SHOVEL = registerItem("alpha_wooden_shovel", properties ->
+            new Item(properties.shovel(ToolMaterial.WOOD, 1.0f,18.0f)));
+    public static final Item ALPHA_WOODEN_HOE = registerItem("alpha_wooden_hoe", properties ->
+            new Item(properties.hoe(ToolMaterial.WOOD, 0.5f,18.0f)));
 
 
 

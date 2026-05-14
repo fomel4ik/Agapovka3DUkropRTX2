@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "agapovka-3d:item/alpha_wooden_hoe"
+  }
+}

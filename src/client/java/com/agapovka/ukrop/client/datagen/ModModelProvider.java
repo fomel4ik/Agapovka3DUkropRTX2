@@ -21,5 +21,9 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateItemModels(net.minecraft.client.data.models.ItemModelGenerators itemModelGenerators) {
         itemModelGenerators.generateFlatItem(ModItems.ALPHA_WOODEN_AXE, ModelTemplates.FLAT_HANDHELD_ITEM);
+        itemModelGenerators.generateFlatItem(ModItems.ALPHA_WOODEN_PICKAXE, ModelTemplates.FLAT_HANDHELD_ITEM);
+        itemModelGenerators.generateFlatItem(ModItems.ALPHA_WOODEN_SWORD, ModelTemplates.FLAT_HANDHELD_ITEM);
+        itemModelGenerators.generateFlatItem(ModItems.ALPHA_WOODEN_SHOVEL, ModelTemplates.FLAT_HANDHELD_ITEM);
+        itemModelGenerators.generateFlatItem(ModItems.ALPHA_WOODEN_HOE, ModelTemplates.FLAT_HANDHELD_ITEM);
     }
 }
